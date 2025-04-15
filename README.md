@@ -110,6 +110,7 @@ The system uses a modified ResNet50 architecture trained on a dataset of real an
    ```
 5. Run the Flask server
    ```
+   Download the model.keras file from releases and place them in the api folder
    python run_server.py
    ```
 
