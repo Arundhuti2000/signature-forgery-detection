@@ -27,7 +27,11 @@ signature-forgery-detection/
 │   ├── run_server.py          # Script to start the server       
 │   ├── model.keras            # Trained model file
 │   └── tensorflow_windows_fix.py  # Helper script for Windows
-│
+├── model/
+│   └── signature_verification.ipynb
+├── data/
+│   ├── forged
+│   └── real
 ├── ui/
 │   └── signature-verification/  # React app
 │       ├── public/
