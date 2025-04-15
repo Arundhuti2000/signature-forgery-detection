@@ -24,8 +24,7 @@ signature-forgery-detection/
 │
 ├── api/
 │   ├── app.py                 # Flask API server
-│   ├── run_server.py          # Script to start the server
-│   ├── requirements.txt       # Python dependencies
+│   ├── run_server.py          # Script to start the server       
 │   ├── model.keras            # Trained model file
 │   └── tensorflow_windows_fix.py  # Helper script for Windows
 │
@@ -39,6 +38,7 @@ signature-forgery-detection/
 │       ├── package.json
 │       └── ...
 │
+├── requirements.txt
 └── README.md                  # This file
 ```
 
@@ -97,10 +97,14 @@ The system uses a modified ResNet50 architecture trained on a dataset of real an
 
 3. Install dependencies
    ```
-   pip install -r requirements.txt
+   cd api
+   pip install -r ../requirements.txt
    ```
-
-4. Run the Flask server
+4. Run Fix Tensorflow issue
+   ```
+   python tensorflow_windows_fix.py
+   ```
+5. Run the Flask server
    ```
    python run_server.py
    ```
