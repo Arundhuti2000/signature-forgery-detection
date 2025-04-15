@@ -1,0 +1,92 @@
+# Virtual Environment
+
+venv/
+
+env/
+
+ENV/
+
+.env
+
+.venv
+
+env.bak/
+
+venv.bak/
+
+
+
+# Python cache files
+
+__pycache__/
+
+*.py[cod]
+
+*$py.class
+
+.Python
+
+*.so
+
+.pytest_cache/
+
+
+
+# Distribution / packaging
+
+dist/
+
+build/
+
+*.egg-info/
+
+
+
+# Jupyter Notebook
+
+.ipynb_checkpoints
+
+*/.ipynb_checkpoints/*
+
+
+
+# VS Code settings
+
+.vscode/
+
+*.code-workspace
+
+
+
+# Model checkpoints and data
+
+*.h5
+
+*.hdf5
+
+*.pkl
+
+data/
+
+
+
+# Logs
+
+*.log
+
+logs/
+
+
+
+# Local development settings
+
+.env.local
+
+.env.development.local
+
+.env.test.local
+
+.env.production.local
+
+*.keras
+model.keras
