@@ -108,9 +108,10 @@ The system uses a modified ResNet50 architecture trained on a dataset of real an
    ```
    python tensorflow_windows_fix.py
    ```
-5. Run the Flask server
+5. Download the model.keras file from releases and place them in the api folder
+   
+6. Run the Flask server
    ```
-   Download the model.keras file from releases and place them in the api folder
    python run_server.py
    ```
 
