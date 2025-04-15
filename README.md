@@ -181,5 +181,17 @@ The system uses a modified ResNet50 architecture trained on a dataset of real an
 - Create verification reports
 
 ---
+## Screenshots
+- Home Screen
+  ![image](https://github.com/user-attachments/assets/00761a4c-f059-48d7-bbb2-b794ef38017d)
+  ![image](https://github.com/user-attachments/assets/82bcea35-dc00-4154-8f46-8499eefefef1)
+- Authentication Check :
+  Forged Data
+  ![image](https://github.com/user-attachments/assets/977af532-3ecf-4637-bb32-0171a61b3751)
+  ![image](https://github.com/user-attachments/assets/1fd9c6e2-5054-49c0-9e6f-062cd8a64c01)
+  Real Data
+  ![image](https://github.com/user-attachments/assets/2e453044-62a5-4280-a767-93eceb220078)
+  ![image](https://github.com/user-attachments/assets/9b541ea7-d3b8-4a74-968c-6279d756ceef)
+
 
 Created with ❤️ by Arundhati Das
