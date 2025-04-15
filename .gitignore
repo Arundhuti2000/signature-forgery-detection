@@ -90,3 +90,9 @@ logs/
 
 *.keras
 model.keras
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
