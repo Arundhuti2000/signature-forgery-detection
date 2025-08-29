@@ -171,7 +171,7 @@ The system uses a modified ResNet50 architecture trained on a dataset of real an
 
 ## License
 
-[MIT License](LICENSE)
+This project is part of the academic curriculum at UMass Dartmouth.
 
 ## Acknowledgments
 
